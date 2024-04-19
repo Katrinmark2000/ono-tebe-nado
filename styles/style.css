@@ -192,6 +192,7 @@
 .book {
     line-height: 24px;
 }
+
 .art {
     line-height: 23.8px;
 }
@@ -199,7 +200,6 @@
 .card_type_film {
     background-image: url(/images/card-lot-01.jpg);
     z-index: 0;
-  
 }
 .card_type_book {
     background-image: url(/images/card-lot-02.jpg);
