@@ -2,7 +2,7 @@
     padding: 92px 24px 96px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 105px;;
+    grid-template-rows: 105px;
     color: #000;
     align-items: center;
 }
@@ -28,7 +28,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;   
-}
+    }
 
 .header__link_active {
     text-underline-position: under;
@@ -81,7 +81,7 @@
 .cover_title {
     font-weight: 700;
     font-size: 100px;
-    line-height: 1;   
+    line-height: 1;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -157,7 +157,6 @@
 .card-link {
     display: block;
     text-decoration: none;
-    height: 100%;
     height: 563px;
 }
 
@@ -297,7 +296,6 @@
 }
 
 .footer__social-list {
-    display: block;
     display: flex;
     padding-right: 3px;
 }
