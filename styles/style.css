@@ -28,7 +28,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;   
-    }
+}
 
 .header__link_active {
     text-underline-position: under;
@@ -184,7 +184,7 @@
     display: flex;
     height: 100%;
     font-weight: 400;
-    font-size: 20px;   
+    font-size: 20px;
     align-items: end;
 }
 
@@ -282,7 +282,7 @@
 }
 
 .more_ls_one {
-    letter-spacing: 0.01em;   
+    letter-spacing: 0.01em;
 }
 
 .footer {
