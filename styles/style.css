@@ -17,6 +17,7 @@
 
 .nuv__menu {
     grid-column: 1/4;
+    padding-left: 26px;
 }
 
 .header__links-list {
@@ -37,6 +38,7 @@
 
 .header__links-list-item {
     list-style-type: circle;
+   
 }
 
 .header__links-list-item_no-bullit {
@@ -45,7 +47,7 @@
 
 .header__link_active {
     text-decoration: none;
-    padding-left: 26px;
+   
 }
 
 .header__address {
