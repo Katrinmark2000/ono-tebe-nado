@@ -135,16 +135,13 @@
     border: #FFF 1px solid;
     width: 256px;
     min-height: 51px;
-    cursor: pointer
-}
-
-.cover-button_text {
-    text-transform: uppercase;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     color: #FFF;
     text-align: center;
+    text-transform: uppercase;
+    cursor: pointer
 }
 
 .lots__heading {
