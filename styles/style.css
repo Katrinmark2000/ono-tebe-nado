@@ -192,14 +192,7 @@
     font-weight: 400;
     font-size: 20px;
     align-items: end;
-}
-
-.book {
     line-height: 24px;
-}
-
-.art {
-    line-height: 23.8px;
 }
 
 .card_type_film {
