@@ -2,7 +2,6 @@
     padding: 92px 24px 96px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 105px;
     color: #000;
     align-items: center;
 }
@@ -30,7 +29,7 @@
     line-height: 21px;
 }
 
-.header__link_active {
+.header__link {
     text-underline-position: under;
     letter-spacing: 0.01em;
     padding-left: 2px;
@@ -44,13 +43,16 @@
     list-style-type: none;
 }
 
-.header__link {
+.header__link_active {
     text-decoration: none;
     padding-left: 26px;
 }
 
 .header__address {
     grid-column: 6/8;
+}
+
+.adress {
     font-style: normal;
     font-size: 18px;
     line-height: 1.35;
@@ -128,15 +130,22 @@
 }
 
 .cover-button {
-    text-transform: uppercase;
     background-color: transparent;
     margin-right: -26px;
     border: #FFF 1px solid;
     width: 256px;
-    height: 51px;
+    min-height: 51px;
+    cursor: pointer
+}
+
+.cover-button_text {
+    text-transform: uppercase;
     font-weight: 500;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
     color: #FFF;
+    text-align: center;
+    padding-top: 12px;
 }
 
 .lots__heading {
@@ -150,14 +159,15 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     list-style-type: none;
-    column-gap: 25px;
+    gap: 25px 25px;
     margin: 0 24px;
 }
 
 .card-link {
     display: block;
     text-decoration: none;
-    height: 563px;
+    min-height: 563px;
+    height: 100%;
 }
 
 .card {
@@ -170,6 +180,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 0;
 }
 
 .card__title {
@@ -197,15 +208,12 @@
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    z-index: 0;
 }
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    z-index: 0;
 }
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    z-index: 0;
 }
 
 .lots__look-more-link {
@@ -222,7 +230,7 @@
     margin-top: 146px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill 1fr 200px);
 }
 
 .about__column {
@@ -234,20 +242,17 @@
     border-radius: 100%;
     width: 240px;
     height: 240px;
-    position: relative;
-    
+    display: flex;
 }
 
 .about__logo-image {
-    position: absolute;
     width: 148px;
-    height: 114;
-    left: 19.3%;
-    top: 26.4%;
+    height: 114px;
+    align-self: center;
+    margin: auto;
 }
 
 .about__title {
-    display: flex;
     font-weight: 700;
     font-size: 26px;
     line-height: 47px;
@@ -264,28 +269,15 @@
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.01em;
-    margin-top: -13px;
+    margin-top: -10px;
 }
 
-.about_paragraph {
-    padding-top: 23px;
-    letter-spacing: 0;
-}
-
-.no_ls {
-    letter-spacing: 0;
-}
-
-.more_ls {
-    letter-spacing: 0.03em;
-}
-
-.more_ls_one {
-    letter-spacing: 0.01em;
+.about__text_indent {
+    padding-top: 20px;
 }
 
 .footer {
-    margin-top: 180px;
+    margin-top: 183px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 88px;
